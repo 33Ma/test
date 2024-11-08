@@ -1,0 +1,105 @@
+body{
+    margin: 0px;padding: 0px;
+    font-family: 微软雅黑,Verdana,sans-serif,宋体;
+    font-size: 12px;
+    background:  url(../images/background.gif) repeat-x 0 0;
+}
+div{
+    border: 0px solid;
+    padding: 0px;
+}
+.hover{
+    background: #E0E0E0;
+}
+.center{text-align: center;}
+.link{
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+img{
+    vertical-align: middle;    border: 0px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+#head ul{
+    list-style-type: none;
+    margin-top:0px ;
+}
+#head ul li{
+    float: left;
+    margin: 0px 16px 0px 0px;
+    color: white;
+    font-size: 10pt;
+}
+#head{
+    font-size: 10pt;
+    height: 30px;
+    line-height: 30px;
+    min-width: 998px;
+}
+#head a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#footer{
+    margin: auto;
+    width:1000px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    height: 38px;
+    line-height: 38px;
+    border-top: 2px solid rgb(204, 204, 204);
+    color: rgb(115, 117, 115);
+    text-align: center;
+}
+.clear{
+    clear:both;
+}
+#mainPanel h3{
+    text-align: center;
+    font-size: 16px;
+}
+#mainPanel{
+    margin: auto;
+    width: 1000px;
+}
+
+.pTable,.tableShow,.printTable table{
+    margin-top: 10px;
+    width: 99%;
+    border   : 1px solid #C0C0C0;
+    border-collapse: collapse;
+    margin-left: 2px;
+    margin-bottom: 5px;
+}
+.pTable td,.tableShow td,.printTable table td{
+    height: 21px;
+    padding: 2px;
+    padding-left: 4px;
+    border: 1px dotted #C0C0C0;
+    font-size: 12px;
+}
+.pTable tr:hover,.tableShow tr:hover{
+   background: #F0F0F0;
+}
+.pTable .title,.tableShow .title ,.pTable thead,.printTable thead{
+
+    background: #E0E0E0;
+    text-align: center;
+}
+.printTable .title{
+   font-weight: bold;
+}
+.tableShow tr:hover,.printTable tr:hover{
+    background-color:  #A5FCB8;
+}
